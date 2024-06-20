@@ -195,6 +195,7 @@ section{
     transform:rotate(7deg);
     border-radius: 15px;
     right:25px;
+    
 }
 .home .home-img:before, .home .home-img:before{
     content: '';
