@@ -729,3 +729,209 @@ footer .copyright{
     font-size:16px;
     color:var(--primary-color);
 }
+
+
+@media(max-width: 768px) {
+    /* Header Section */
+    .header {
+        padding: 2rem 5%;
+        height: 6rem;
+    }
+
+    .logo {
+        font-size: 3.5rem;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+    }
+
+    .navbar.active {
+        display: block;
+    }
+
+    .navbar ul li a {
+        font-size: 1.6rem;
+        margin-left: 0;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    #menu-icon {
+        font-size: 3.6rem;
+        display: block;
+        color: var(--primary-color);
+    }
+
+    /* Home Section */
+    .home .home-content {
+        flex-direction: column;
+        height: 500px;
+        padding: 2rem 0;
+    }
+
+    .home-content .content h1 {
+        font-size: 3.5rem;
+        padding-top: 10rem;
+    }
+
+    .home-content .content h3 {
+        font-size: 2.5rem;
+    }
+
+    .home-content .content p {
+        font-size: 1.4rem;
+    }
+
+    .home-img img {
+        width: 70%;
+        transform: rotate(5deg);
+    }
+
+    .home .home-img:before {
+        top: 45%;
+        width: 80%;
+    }
+
+    /* Section About */
+    .about-me .about-img img {
+        height: 350px;
+        margin-top: 8rem;
+    }
+
+    .about-content .section-title h2 {
+        font-size: 3.5rem;
+    }
+
+    .about-content p {
+        font-size: 1.4rem;
+    }
+
+    /* Skill Bar Section */
+    .skill-bar {
+        padding: 1.5rem;
+    }
+
+    .skill-bar .bar .progress-bar {
+        height: 8px;
+    }
+
+    .bar .progress-bar span {
+        height: 100%;
+    }
+
+    /* Timeline (Education) */
+    .timeline-section {
+        padding: 3rem 1rem;
+    }
+
+    .timeline-items {
+        padding-left: 0;
+    }
+
+    .timeline-items:before {
+        left: 50%;
+    }
+
+    .timeline-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .timeline-dot {
+        left: 50%;
+    }
+
+    .timeline-content {
+        padding: 20px;
+    }
+
+    /* Experience Section */
+    .experience .container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .experience .container::after {
+        font-size: 1.5rem;
+    }
+
+    .experience .left,
+    .experience .right {
+        width: 100%;
+        left: 0;
+    }
+
+    .experience .left::before,
+    .experience .right::before {
+        border-width: 7px;
+    }
+
+    /* Projects Section */
+    .projects-box {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .project-card {
+        height: 350px;
+        max-width: 100%;
+        padding: 3rem 2rem;
+    }
+
+    .project-card h3 {
+        font-size: 2.5rem;
+    }
+
+    .project-card p {
+        font-size: 1.4rem;
+    }
+
+    /* Contact Section */
+    .contact form {
+        max-width: 100%;
+    }
+
+    .contact form .input-box {
+        flex-direction: column;
+    }
+
+    .contact form .input-box input,
+    .contact form textarea {
+        width: 100%;
+        padding: 1.2rem;
+        font-size: 1.4rem;
+    }
+
+    .contact form .btn {
+        font-size: 1.4rem;
+        padding: 1rem 2.4rem;
+    }
+
+    /* Footer Section */
+    .footer {
+        padding: 30px 0;
+    }
+
+    .footer .social a {
+        font-size: 2rem;
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer ul li a {
+        font-size: 1.4rem;
+    }
+
+    footer .copyright {
+        font-size: 14px;
+    }
+}
